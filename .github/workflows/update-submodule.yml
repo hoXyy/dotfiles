@@ -20,7 +20,7 @@ jobs:
 
       - name: Update submodules
         run: |
-          git submodule update --remote --merge
+          git submodule update --remote
 
       - name: Check for changes
         id: check_changes
