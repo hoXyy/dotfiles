@@ -1,0 +1,49 @@
+{
+  pkgs,
+  lib,
+  ...
+}: let
+  nvm = import ./packages/nvm.nix {inherit pkgs;};
+  setWallpaperScript = import ./helpers/wallpaper.nix {inherit pkgs;};
+  linearMouseScript = import ./helpers/linear-mouse.nix {inherit pkgs;};
+  disableAppleIntelligence = import ./helpers/disable-apple-intelligence.nix {inherit pkgs;};
+  installRosetta = import ./helpers/install-rosetta.nix {inherit pkgs;};
+in {
+  home.stateVersion = "25.11";
+
+  home.file.".nvm/nvm.sh".source = "${nvm}/share/nvm/nvm.sh";
+
+  home.packages = with pkgs; [
+    nvm
+    alejandra
+  ];
+
+  home.activation = {
+    "setWallpaper" = lib.hm.dag.entryAfter ["revealHomeLibraryDirectory"] ''
+      echo "Setting wallpaper..."
+      ${setWallpaperScript}/bin/set-wallpaper-script
+    '';
+
+    "disableMouseAcceleration" = lib.hm.dag.entryAfter ["setWallpaper"] ''
+      echo "Disabling mouse acceleration..."
+      ${linearMouseScript}/bin/linear-mouse
+    '';
+
+    "disableAppleIntelligence" = lib.hm.dag.entryAfter ["disableMouseAcceleration"] ''
+      echo "Disabling Apple Intelligence..."
+      ${disableAppleIntelligence}/bin/disable-apple-intelligence
+    '';
+
+    "installRosetta" = lib.hm.dag.entryAfter ["disableAppleIntelligence"] ''
+      echo "Installing Rosetta..."
+      ${installRosetta}/bin/install-rosetta
+    '';
+  };
+
+  imports = [
+    ./zsh.nix
+    ./nvim.nix
+    ./git.nix
+    ./ghostty.nix
+  ];
+}
