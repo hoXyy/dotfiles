@@ -40,6 +40,8 @@ in {
     '';
   };
 
+  xdg.enable = true;
+
   imports = [
     ./zsh.nix
     ./nvim.nix

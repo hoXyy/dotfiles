@@ -1,8 +1,7 @@
-{
+{config, ...}: {
   xdg.configFile."nvim" = {
     enable = true;
-    source = ../configs/nvim-config;
+    source = config.lib.file.mkOutOfStoreSymlink "${config.xdg.configHome}/nix/configs/nvim-config";
     recursive = true;
-    force = true;
   };
 }
