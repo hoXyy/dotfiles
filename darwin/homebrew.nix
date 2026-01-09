@@ -40,6 +40,8 @@
       "iina"
       "the-unarchiver"
       "1password"
+      "parsec"
+      "gimp"
     ];
   };
 }
