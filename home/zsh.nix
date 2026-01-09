@@ -34,6 +34,34 @@
           sha256 = "02p5wq93i12w41cw6b00hcgmkc8k80aqzcy51qfzi0armxig555y";
         };
       }
+      {
+        name = "zsh-bat";
+        src = pkgs.fetchFromGitHub {
+          owner = "fdellwing";
+          repo = "zsh-bat";
+          rev = "467337613c1c220c0d01d69b19d2892935f43e9f";
+          sha256 = "0sj8dwqlnd7dz7djs6kv92vsxqai2sc2pq865r7i5lxgjxk9hfsd";
+        };
+      }
+      {
+        name = "zsh-you-should-use";
+        src = pkgs.fetchFromGitHub {
+          owner = "MichaelAquilina";
+          repo = "zsh-you-should-use";
+          rev = "1.10.1";
+          sha256 = "14kjc449kkd1fswqlxdpz6a5vg6pyhab69qbw7kavhjyzy39nxmv";
+        };
+      }
+      {
+        name = "oh-my-zsh-git";
+        src = pkgs.fetchFromGitHub {
+          owner = "ohmyzsh";
+          repo = "ohmyzsh";
+          rev = "871d4b9816e6a8bdf809149c79f468d0fcb888db";
+          sha256 = "03j0q3wh1v410asy9hzsjm95ixl87b7r3i8hv6sdlxxxa0irc1lc";
+        };
+        file = "plugins/git/git.plugin.zsh";
+      }
     ];
     history = {
       append = true;
