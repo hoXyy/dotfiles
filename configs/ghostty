@@ -1,8 +1,8 @@
 window-padding-x = 4
 window-padding-y = 4
 macos-option-as-alt = true
-cursor-style = block
-shell-integration-features = true
+cursor-style = "block"
+shell-integration-features = sudo,ssh-env
 background = #1e1e2e
 foreground = #cdd6f4
 selection-background = #353748
