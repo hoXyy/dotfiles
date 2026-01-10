@@ -20,6 +20,7 @@
       "btop"
       "zsh-async"
       "opencode"
+      "tree-sitter-cli"
     ];
 
     casks = [
