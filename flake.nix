@@ -3,7 +3,8 @@
 
   inputs = {
     # Neovim config is a submodule so need to enable this
-    self.submodules = true;
+    # Actually Lix has a broken experimental feature on the CLI which means I can't use this :)
+    #self.submodules = true;
 
     # Nixpkgs
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";

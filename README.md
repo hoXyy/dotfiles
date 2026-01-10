@@ -8,21 +8,18 @@ Clone this repo to `~/.config/nix` *with submodules (using `--recurse-submodules
 
 Install [Lix](https://lix.systems/install/#on-any-other-linuxmacos-system) (as recommended by nix-darwin).
 
-Run this command to install nix-darwin:
+Run this command to install nix-darwin and the config:
 ```sh
-sudo nix run nix-darwin/master#darwin-rebuild -- switch
+sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake "git+file://$HOME/.config/nix?submodules=1#hoxi-mbp"
 ```
-
-Then for the first time run:
-```sh
-sudo darwin-rebuild switch --flake $HOME/.config/nix#hoxi-mbp
-```
-
-to build the config.
 
 Afterwards you can just run:
 ```sh
 nix-rebuild
+```
+or
+```sh
+sudo darwin-rebuild switch --flake "git+file://$HOME/.config/nix?submodules=1#hoxi-mbp"
 ```
 
 to do the same.
