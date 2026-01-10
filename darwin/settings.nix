@@ -42,7 +42,7 @@
       Bluetooth = true;
     };
     dock = {
-      autohide = true;
+      autohide = false;
       mineffect = "scale";
       persistent-apps = [
         "/Applications/Helium.app"
