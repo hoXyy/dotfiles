@@ -11,7 +11,7 @@
       NSAutomaticDashSubstitutionEnabled = false;
       NSNavPanelExpandedStateForSaveMode = true;
       NSNavPanelExpandedStateForSaveMode2 = true;
-      InitialKeyRepeat = 0;
+      InitialKeyRepeat = 15;
       KeyRepeat = 2;
     };
     finder = {
