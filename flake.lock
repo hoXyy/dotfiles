@@ -88,6 +88,22 @@
         "type": "github"
       }
     },
+    "homebrew-opencode": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1768010068,
+        "narHash": "sha256-fSm3RQxTs5B7V04kOwGuNm718hUz8H8cY1WcJMKQmfg=",
+        "owner": "anomalyco",
+        "repo": "homebrew-tap",
+        "rev": "3e11012d9434a6f3a07f055702caccf003c2c594",
+        "type": "github"
+      },
+      "original": {
+        "owner": "anomalyco",
+        "repo": "homebrew-tap",
+        "type": "github"
+      }
+    },
     "homebrew-sikarugir": {
       "flake": false,
       "locked": {
@@ -147,6 +163,7 @@
         "homebrew": "homebrew",
         "homebrew-cask": "homebrew-cask",
         "homebrew-core": "homebrew-core",
+        "homebrew-opencode": "homebrew-opencode",
         "homebrew-sikarugir": "homebrew-sikarugir",
         "nix-darwin": "nix-darwin",
         "nixpkgs": "nixpkgs"

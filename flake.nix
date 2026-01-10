@@ -33,6 +33,11 @@
       url = "github:Sikarugir-App/homebrew-sikarugir";
       flake = false;
     };
+
+    homebrew-opencode = {
+      url = "github:anomalyco/homebrew-tap";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {
@@ -44,6 +49,7 @@
     homebrew-core,
     homebrew-cask,
     homebrew-sikarugir,
+    homebrew-opencode,
     ...
   }: {
     # Build darwin flake using:
@@ -71,6 +77,7 @@
               "homebrew/homebrew-core" = homebrew-core;
               "homebrew/homebrew-cask" = homebrew-cask;
               "sikarugir-app/homebrew-sikarugir" = homebrew-sikarugir;
+              "anomalyco/homebrew-tap" = homebrew-opencode;
             };
 
             mutableTaps = false;

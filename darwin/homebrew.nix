@@ -19,6 +19,7 @@
       "wget"
       "btop"
       "zsh-async"
+      "opencode"
     ];
 
     casks = [
