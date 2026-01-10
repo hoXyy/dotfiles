@@ -10,6 +10,7 @@
 
     masApps = {
       Xcode = 497799835;
+      WireGuard = 1451685025;
     };
 
     brews = [
