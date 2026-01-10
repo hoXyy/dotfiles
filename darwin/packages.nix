@@ -8,5 +8,6 @@
     gh
     fzf
     bat
+    bun
   ];
 }
