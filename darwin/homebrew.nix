@@ -35,10 +35,7 @@
         greedy = true;
       }
       "mac-mouse-fix"
-      {
-        name = "helium-browser";
-        greedy = true;
-      }
+      "helium-browser"
       "iina"
       "the-unarchiver"
       "1password"
