@@ -20,6 +20,7 @@
     # nix-homebrew
     homebrew.url = "github:zhaofengli/nix-homebrew";
 
+    # homebrew taps
     homebrew-core = {
       url = "github:homebrew/homebrew-core";
       flake = false;
@@ -39,6 +40,9 @@
       url = "github:anomalyco/homebrew-tap";
       flake = false;
     };
+
+    # neovim nightly
+    neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
   };
 
   outputs = inputs @ {
@@ -51,6 +55,7 @@
     homebrew-cask,
     homebrew-sikarugir,
     homebrew-opencode,
+    neovim-nightly-overlay,
     ...
   }: {
     # Build darwin flake using:
@@ -61,6 +66,10 @@
       pkgs = import nixpkgs {
         system = "aarch64-darwin";
         config.allowUnfree = true;
+      };
+
+      specialArgs = {
+        inherit inputs;
       };
 
       modules = [

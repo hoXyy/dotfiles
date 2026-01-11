@@ -1,7 +1,11 @@
-{pkgs, ...}: {
+{
+  inputs,
+  pkgs,
+  ...
+}: {
   environment.systemPackages = with pkgs; [
     git
-    neovim
+    inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
     discord
     ghostty-bin
     rustup
