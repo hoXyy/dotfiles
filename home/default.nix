@@ -16,6 +16,7 @@ in {
   home.packages = with pkgs; [
     nvm
     alejandra
+    nerd-fonts.meslo-lg
   ];
 
   home.activation = {
