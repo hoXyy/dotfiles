@@ -81,7 +81,8 @@
     shellAliases = {
       ls = "ls -l --color";
       lg = "lazygit";
-      nix-rebuild = "sudo darwin-rebuild switch --flake ''\"git+file://$HOME/.config/nix?submodules=1#hoxi-mbp''\"";
+      nix-rebuild = ''
+        sudo darwin-rebuild switch --flake "git+file://$HOME/.config/nix?submodules=1#hoxi-mbp"'';
     };
   };
 }
