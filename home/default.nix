@@ -4,10 +4,12 @@
   ...
 }: let
   nvm = import ./packages/nvm.nix {inherit pkgs;};
+  neovim-stable = import ./packages/neovim-stable.nix {inherit pkgs;};
   setWallpaperScript = import ./helpers/wallpaper.nix {inherit pkgs;};
   linearMouseScript = import ./helpers/linear-mouse.nix {inherit pkgs;};
   disableAppleIntelligence = import ./helpers/disable-apple-intelligence.nix {inherit pkgs;};
   installRosetta = import ./helpers/install-rosetta.nix {inherit pkgs;};
+  ioskeley-mono = import ./packages/ioskeley-mono.nix {inherit pkgs;};
 in {
   home.stateVersion = "25.11";
 
@@ -16,7 +18,11 @@ in {
   home.packages = with pkgs; [
     nvm
     alejandra
+    neovim-stable
+    ioskeley-mono
     nerd-fonts.meslo-lg
+    nerd-fonts.iosevka
+    nerd-fonts.iosevka-term
   ];
 
   home.activation = {
