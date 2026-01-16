@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  wallpaper = ../../configs/wallpaper.jpg;
+  wallpaper = ../../configs/wallpaper.jpeg;
 in
   pkgs.writeShellScriptBin "set-wallpaper-script" ''
     set -e
