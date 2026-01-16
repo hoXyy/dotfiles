@@ -4,24 +4,42 @@ font-size = 14
 font-thicken = true
 adjust-cell-height = 4
 shell-integration-features = sudo,ssh-env,no-title
-palette = 0=#3B4252
-palette = 1=#E06C75
-palette = 2=#9EC183
-palette = 3=#EBCB8B
-palette = 4=#81A1C1
-palette = 5=#B988B0
-palette = 6=#88C0D0
-palette = 7=#E5E9F0
-palette = 8=#4C566A
-palette = 9=#E06C75
-palette = 10=#9EC183
-palette = 11=#EBCB8B
-palette = 12=#81A1C1
-palette = 13=#B988B0
-palette = 14=#8FBCBB
-palette = 15=#ECEFF4
-background = 2E3440
-foreground = E5E9F0
-cursor-color = E5E9F0
-selection-background = 3F4758
-selection-foreground = E5E9F0
+cursor-color = #e3e2e5
+foreground = #c9c7cd
+background = #161617
+
+selection-foreground = #e3e2e5
+selection-background = #3C3B3E
+
+# Black
+palette = 0=#27272a
+palette = 8=#353539
+
+# Red
+palette = 1=#f5a191
+palette = 9=#ffae9f
+
+# Green
+palette = 2=#90b99f
+palette = 10=#9dc6ac
+
+# Yellow
+palette = 3=#e6b99d
+palette = 11=#f0c5a9
+
+# Blue
+palette = 4=#aca1cf
+palette = 12=#b9aeda
+
+# Magenta
+palette = 5=#e29eca
+palette = 13=#ecaad6
+
+# Cyan
+palette = 6=#ea83a5
+palette = 14=#f591b2
+
+# White
+palette = 7=#c1c0d4
+palette = 15=#cac9dd
+
