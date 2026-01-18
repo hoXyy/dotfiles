@@ -1,6 +1,6 @@
 macos-option-as-alt = true
 font-family = Iosevka Nerd Font Mono
-font-size = 14
+font-size = 16
 font-thicken = true
 adjust-cell-height = 4
 shell-integration-features = sudo,ssh-env,no-title
