@@ -8,6 +8,7 @@
   setWallpaperScript = import ./helpers/wallpaper.nix {inherit pkgs;};
   linearMouseScript = import ./helpers/linear-mouse.nix {inherit pkgs;};
   disableAppleIntelligence = import ./helpers/disable-apple-intelligence.nix {inherit pkgs;};
+  setupKeyrepeatForVSCode = import ./helpers/setup-keyrepeat-for-vscode.nix {inherit pkgs;};
   installRosetta = import ./helpers/install-rosetta.nix {inherit pkgs;};
   ioskeley-mono = import ./packages/ioskeley-mono.nix {inherit pkgs;};
 in {
@@ -44,6 +45,11 @@ in {
     "installRosetta" = lib.hm.dag.entryAfter ["disableAppleIntelligence"] ''
       echo "Installing Rosetta..."
       ${installRosetta}/bin/install-rosetta
+    '';
+
+    "setupKeyrepeatForVSCode" = lib.hm.dag.entryAfter ["installRosetta"] ''
+      echo "Setting up keyrepeat for VSCode..."
+      ${setupKeyrepeatForVSCode}/bin/setup-keyrepeat-for-vscode
     '';
   };
 
