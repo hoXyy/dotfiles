@@ -44,15 +44,6 @@
         };
       }
       {
-        name = "zsh-you-should-use";
-        src = pkgs.fetchFromGitHub {
-          owner = "MichaelAquilina";
-          repo = "zsh-you-should-use";
-          rev = "1.10.1";
-          sha256 = "14kjc449kkd1fswqlxdpz6a5vg6pyhab69qbw7kavhjyzy39nxmv";
-        };
-      }
-      {
         name = "oh-my-zsh-git";
         src = pkgs.fetchFromGitHub {
           owner = "ohmyzsh";
