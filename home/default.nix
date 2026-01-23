@@ -24,6 +24,7 @@ in {
     nerd-fonts.meslo-lg
     nerd-fonts.iosevka
     nerd-fonts.iosevka-term
+    nerd-fonts.jetbrains-mono
   ];
 
   home.activation = {
@@ -42,7 +43,7 @@ in {
       ${disableAppleIntelligence}/bin/disable-apple-intelligence
     '';
 
-    "installRosetta" = lib.hm.dag.entryAfter ["disableAppleIntelligence"] ''
+   "installRosetta" = lib.hm.dag.entryAfter ["disableAppleIntelligence"] ''
       echo "Installing Rosetta..."
       ${installRosetta}/bin/install-rosetta
     '';
