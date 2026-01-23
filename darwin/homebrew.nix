@@ -30,10 +30,7 @@
       "db-browser-for-sqlite"
       "appcleaner"
       "docker-desktop"
-      {
-        name = "visual-studio-code";
-        greedy = true;
-      }
+      "visual-studio-code"
       "mac-mouse-fix"
       "helium-browser"
       "iina"
