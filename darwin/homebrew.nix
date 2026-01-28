@@ -40,6 +40,7 @@
       "parsec"
       "gimp"
       "transmission"
+      "zed"
     ];
   };
 }
