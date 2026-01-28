@@ -20,7 +20,7 @@
       "wget"
       "btop"
       "zsh-async"
-      "opencode"
+      "anomalyco/homebrew-tap/opencode"
       "tree-sitter-cli"
     ];
 
