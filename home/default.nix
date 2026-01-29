@@ -43,7 +43,7 @@ in {
       ${disableAppleIntelligence}/bin/disable-apple-intelligence
     '';
 
-   "installRosetta" = lib.hm.dag.entryAfter ["disableAppleIntelligence"] ''
+    "installRosetta" = lib.hm.dag.entryAfter ["disableAppleIntelligence"] ''
       echo "Installing Rosetta..."
       ${installRosetta}/bin/install-rosetta
     '';
@@ -61,5 +61,6 @@ in {
     ./nvim.nix
     ./git.nix
     ./ghostty.nix
+    ./zed.nix
   ];
 }
