@@ -62,5 +62,6 @@ in {
     ./git.nix
     ./ghostty.nix
     ./zed.nix
+    ./nvim-vscode.nix
   ];
 }

@@ -2,3 +2,7 @@
 	path = configs/nvim-config
 	url = https://github.com/hoXyy/nvim-config
 	branch = main
+[submodule "configs/nvim-vscode"]
+	path = configs/nvim-vscode
+	url = https://github.com/hoXyy/nvim-config.git
+	branch = vscode-nvim
