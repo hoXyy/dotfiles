@@ -1,4 +1,6 @@
 {
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": true,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "icon_theme": "Catppuccin Macchiato",
   "vim": {
