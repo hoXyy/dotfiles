@@ -1,0 +1,58 @@
+{
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "icon_theme": "Catppuccin Macchiato",
+  "vim": {
+    "use_smartcase_find": true,
+    "toggle_relative_line_numbers": true,
+  },
+  "middle_click_paste": false,
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "search": {
+    "case_sensitive": true,
+  },
+  "use_smartcase_search": true,
+  "bottom_dock_layout": "contained",
+  "project_panel": {
+    "button": true,
+  },
+  "status_bar": {
+    "active_language_button": true,
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": true,
+  },
+  "tabs": {
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "git_status": true,
+  },
+  "title_bar": {
+    "show_user_picture": false,
+    "show_user_menu": true,
+    "show_menus": false,
+    "show_onboarding_banner": false,
+    "show_sign_in": false,
+    "show_branch_icon": false,
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": "Catppuccin Frappé - No Italics",
+  "auto_install_extensions": {
+    "html": true,
+    "astro": true,
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "graphql": true,
+    "rainbow-csv": true,
+    "sql": true,
+    "xml": true,
+  },
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "context": "Editor && vim_mode == normal && !menu",
+    "bindings": {
+      "g d": null,
+      "g shift-d": null,
+      "g y": null,
+      "g A": null,
+      "c d": null,
+      "g s": null,
+      "g shift-s": null,
+
+      "space s f": "file_finder::Toggle",
+      "space f": "editor::Format",
+      "space e": "workspace::ToggleLeftDock",
+      "space t h": "editor::ToggleInlayHints",
+      "space t p": "diagnostics::Deploy",
+
+      "g r d": "editor::GoToDefinition",
+      "g r shift-d": "editor::GoToDeclaration",
+      "g r r": "editor::FindAllReferences",
+      "g r n": "editor::Rename",
+      "g r t": "editor::GoToTypeDefinition",
+
+      "g shift-o": "outline::Toggle",
+      "g shift-w": "project_symbols::Toggle",
+
+      "space l g": [
+        "task::Spawn",
+        { "task_name": "start lazygit", "reveal_target": "center" },
+      ],
+    },
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "space e": "workspace::ToggleLeftDock",
+
+      "enter": "project_panel::Open",
+      "o": "project_panel::Open",
+      "l": "project_panel::Open",
+      "h": "project_panel::CollapseSelectedEntry",
+
+      "a": "project_panel::NewFile",
+      "shift-a": "project_panel::NewDirectory",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Trash",
+
+      "x": "project_panel::Cut",
+      "c": "project_panel::Copy",
+      "p": "project_panel::Paste",
+
+      "shift-h": "project_panel::ToggleHideHidden",
+      "shift-i": "project_panel::ToggleHideGitIgnore",
+    },
+  },
+]
