@@ -48,10 +48,11 @@
         "/System/Applications/Mail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
-        "/Applications/Visual Studio Code.app"
+        "/Applications/Zed.app"
         "/Applications/Nix Apps/Ghostty.app"
         "/System/Applications/System Settings.app"
         "/Applications/UTM.app"
+        "/Applications/1Password.app"
       ];
       tilesize = 42;
     };
