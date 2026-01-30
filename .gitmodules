@@ -1,8 +1,8 @@
-[submodule "configs/nvim-config"]
+[submodule "nvim-config-main"]
 	path = configs/nvim-config
 	url = https://github.com/hoXyy/nvim-config
 	branch = main
-[submodule "configs/nvim-vscode"]
+[submodule "nvim-config-vscode"]
 	path = configs/nvim-vscode
-	url = https://github.com/hoXyy/nvim-config.git
+	url = https://github.com/hoXyy/nvim-config
 	branch = vscode-nvim
