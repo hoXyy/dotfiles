@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup submodules
+      - name: Setup and update submodules
         run: |
           # Completely remove any partial submodule state
           git submodule deinit --all -f
@@ -25,14 +25,6 @@ jobs:
 
           # Fresh initialization
           git submodule update --init --recursive
-          git submodule update --remote
-
-      - name: Update submodules
-        run: |
-          git submodule init
-          git -C configs/nvim-config fetch origin main
-          git -C configs/nvim-vscode fetch origin vscode-nvim
-          git submodule update --recursive
           git submodule update --remote
 
       - name: Check for changes
