@@ -20,6 +20,8 @@ jobs:
 
       - name: Update submodules
         run: |
+          git submodule sync --recursive
+          git submodule foreach 'git fetch origin'
           git submodule update --remote
 
       - name: Check for changes
