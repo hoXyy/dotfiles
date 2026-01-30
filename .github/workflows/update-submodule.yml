@@ -15,8 +15,17 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          submodules: true
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup submodules
+        run: |
+          # Completely remove any partial submodule state
+          git submodule deinit --all -f
+          rm -rf .git/modules
+
+          # Fresh initialization
+          git submodule update --init --recursive
+          git submodule update --remote
 
       - name: Update submodules
         run: |
