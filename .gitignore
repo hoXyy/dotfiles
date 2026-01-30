@@ -1,2 +1,5 @@
 result
 .DS_Store
+
+configs/zed/prompts
+configs/zed/conversations
