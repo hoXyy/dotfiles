@@ -20,8 +20,10 @@ jobs:
 
       - name: Update submodules
         run: |
-          git submodule update --init --recursive
-          git submodule foreach 'git fetch origin'
+          git submodule init
+          git -C configs/nvim-config fetch origin main
+          git -C configs/nvim-vscode fetch origin vscode-nvim
+          git submodule update --recursive
           git submodule update --remote
 
       - name: Check for changes
