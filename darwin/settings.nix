@@ -46,7 +46,7 @@
         "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
         "/Applications/Nix Apps/Discord.app"
-        "/System/Applications/Mail.app"
+        "/Applications/Fastmail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
         "/Applications/Zed.app"

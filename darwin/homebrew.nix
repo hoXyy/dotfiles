@@ -41,6 +41,7 @@
       "gimp"
       "transmission"
       "zed"
+      "fastmail"
     ];
   };
 }
