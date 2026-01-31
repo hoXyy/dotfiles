@@ -43,6 +43,7 @@
       mineffect = "scale";
       persistent-apps = [
         "/Applications/Google Chrome.app"
+        "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
         "/Applications/Nix Apps/Discord.app"
         "/System/Applications/Mail.app"
