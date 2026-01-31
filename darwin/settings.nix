@@ -42,7 +42,7 @@
       autohide = false;
       mineffect = "scale";
       persistent-apps = [
-        "/Applications/Helium.app"
+        "/Applications/Google Chrome.app"
         "/System/Applications/Messages.app"
         "/Applications/Nix Apps/Discord.app"
         "/System/Applications/Mail.app"

@@ -33,7 +33,7 @@
       "docker-desktop"
       "visual-studio-code"
       "mac-mouse-fix"
-      "helium-browser"
+      "google-chrome"
       "iina"
       "the-unarchiver"
       "1password"
