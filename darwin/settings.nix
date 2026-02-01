@@ -50,7 +50,7 @@
         "/Applications/Fastmail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
-        "/Applications/Zed.app"
+        "/Applications/Visual Studio Code.app"
         "/Applications/Nix Apps/Ghostty.app"
         "/System/Applications/System Settings.app"
         "/Applications/UTM.app"
