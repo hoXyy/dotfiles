@@ -31,7 +31,6 @@
       "db-browser-for-sqlite"
       "appcleaner"
       "docker-desktop"
-      "visual-studio-code"
       "mac-mouse-fix"
       "google-chrome"
       "iina"
