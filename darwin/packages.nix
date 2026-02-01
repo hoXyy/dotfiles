@@ -15,5 +15,7 @@
     imagemagick
     wget
     act
+    utm
+    _1password-gui
   ];
 }

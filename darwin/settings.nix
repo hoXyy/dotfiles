@@ -53,8 +53,8 @@
         "${pkgs.vscode}/Applications/Visual Studio Code.app"
         "${pkgs.ghostty-bin}/Applications/Ghostty.app"
         "/System/Applications/System Settings.app"
-        "/Applications/UTM.app"
-        "/Applications/1Password.app"
+        "${pkgs.utm}/Applications/UTM.app"
+        "${pkgs._1password-gui}/Applications/1Password.app"
       ];
       tilesize = 42;
     };
