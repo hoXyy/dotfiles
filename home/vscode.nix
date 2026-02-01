@@ -30,10 +30,6 @@
 
         keybindings = [
           {
-            "key" = "space e";
-            "command" = "workbench.action.toggleSidebarVisibility";
-          }
-          {
             "key" = "enter";
             "command" = "list.select";
             "when" = "explorerViewletFocus";
@@ -94,6 +90,7 @@
           "editor.cursorBlinking" = "smooth";
           "editor.fontLigatures" = true;
           "editor.fontFamily" = "\"MesloLGL Nerd Font\", Menlo, Monaco, 'Courier New', monospace";
+          "editor.fontSize" = 14;
           "editor.lineNumbers" = "relative";
           "editor.codeActionsOnSave" = {
             "source.fixAll.eslint" = "explicit";
@@ -101,6 +98,7 @@
           "workbench.colorTheme" = "Catppuccin Frappé";
           "workbench.activityBar.location" = "top";
           "chat.agent.enabled" = false;
+          "workbench.secondarySideBar.defaultVisibility" = "hidden";
 
           # VSCode Vim
           "extensions.experimental.affinity" = {
