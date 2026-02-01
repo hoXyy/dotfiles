@@ -14,9 +14,6 @@
     };
 
     brews = [
-      "act"
-      "gh"
-      "wget"
       "zsh-async"
       "anomalyco/homebrew-tap/opencode"
       "tree-sitter-cli"

@@ -13,5 +13,7 @@
     bat
     bun
     imagemagick
+    wget
+    act
   ];
 }
