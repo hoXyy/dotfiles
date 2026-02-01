@@ -32,7 +32,6 @@
       "appcleaner"
       "docker-desktop"
       "mac-mouse-fix"
-      "google-chrome"
       "iina"
       "the-unarchiver"
       "1password"

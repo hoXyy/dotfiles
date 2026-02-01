@@ -43,11 +43,11 @@
       mineffect = "scale";
       persistent-apps = [
         "/System/Applications/Apps.app"
-        "/Applications/Google Chrome.app"
+        "${pkgs.google-chrome}/Applications/Google Chrome.app"
         "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
         "${pkgs.discord}/Applications/Discord.app"
-        "/Applications/Fastmail.app"
+        "/System/Applications/Mail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
         "${pkgs.vscode}/Applications/Visual Studio Code.app"

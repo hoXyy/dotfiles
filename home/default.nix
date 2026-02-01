@@ -64,5 +64,7 @@ in {
     ./zed.nix
     ./nvim-vscode.nix
     ./vscode.nix
+    ./discord.nix
+    ./chrome.nix
   ];
 }
