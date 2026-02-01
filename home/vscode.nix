@@ -25,63 +25,6 @@
           github.vscode-pull-request-github
         ];
 
-        keybindings = [
-          {
-            "key" = "enter";
-            "command" = "list.select";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "o";
-            "command" = "list.select";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "l";
-            "command" = "list.select";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "h";
-            "command" = "list.collapse";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "a";
-            "command" = "explorer.newFile";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "shift+a";
-            "command" = "explorer.newDirectory";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "r";
-            "command" = "renameFile";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "d";
-            "command" = "deleteFile";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "x";
-            "command" = "filesExplorer.cut";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "c";
-            "command" = "filesExplorer.copy";
-            "when" = "explorerViewletFocus";
-          }
-          {
-            "key" = "p";
-            "command" = "filesExplorer.paste";
-            "when" = "explorerViewletFocus";
-          }
-        ];
         userSettings = {
           # Editor settings
           "editor.cursorBlinking" = "smooth";
