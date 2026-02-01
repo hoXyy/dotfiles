@@ -25,6 +25,7 @@
           orta.vscode-jest
           yoavbls.pretty-ts-errors
           ms-azuretools.vscode-docker
+          astro-build.astro-vscode
         ];
 
         userSettings = {
