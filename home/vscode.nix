@@ -28,6 +28,67 @@
           astro-build.astro-vscode
         ];
 
+        keybindings = [
+          {
+            "key" = "space e";
+            "command" = "workbench.action.toggleSidebarVisibility";
+          }
+          {
+            "key" = "enter";
+            "command" = "list.select";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "o";
+            "command" = "list.select";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "l";
+            "command" = "list.select";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "h";
+            "command" = "list.collapse";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "a";
+            "command" = "explorer.newFile";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "shift+a";
+            "command" = "explorer.newDirectory";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "r";
+            "command" = "renameFile";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "d";
+            "command" = "deleteFile";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "x";
+            "command" = "filesExplorer.cut";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "c";
+            "command" = "filesExplorer.copy";
+            "when" = "explorerViewletFocus";
+          }
+          {
+            "key" = "p";
+            "command" = "filesExplorer.paste";
+            "when" = "explorerViewletFocus";
+          }
+        ];
         userSettings = {
           # Editor settings
           "editor.cursorBlinking" = "smooth";
@@ -38,6 +99,8 @@
             "source.fixAll.eslint" = "explicit";
           };
           "workbench.colorTheme" = "Catppuccin Frappé";
+          "workbench.activityBar.location" = "top";
+          "chat.agent.enabled" = false;
 
           # VSCode Vim
           "extensions.experimental.affinity" = {
