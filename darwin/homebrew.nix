@@ -16,7 +16,6 @@
     brews = [
       "act"
       "gh"
-      "lazygit"
       "wget"
       "btop"
       "zsh-async"
@@ -39,7 +38,6 @@
       "gimp"
       "transmission"
       "zed"
-      "fastmail"
     ];
   };
 }

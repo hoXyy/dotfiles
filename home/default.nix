@@ -66,5 +66,6 @@ in {
     ./vscode.nix
     ./discord.nix
     ./chrome.nix
+    ./lazygit.nix
   ];
 }
