@@ -5,10 +5,6 @@
 }: {
   programs.vscode = {
     enable = true;
-    package = pkgs.runCommand "vscode-dummy" {
-      pname = "vscode";
-      version = "1.0.0";
-    } "mkdir -p $out/bin; ln -s /usr/bin/true $out/bin/code";
 
     mutableExtensionsDir = true;
     profiles = {
@@ -26,6 +22,7 @@
           yoavbls.pretty-ts-errors
           ms-azuretools.vscode-docker
           astro-build.astro-vscode
+          github.vscode-pull-request-github
         ];
 
         keybindings = [

@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   system.defaults = {
     NSGlobalDomain = {
       AppleICUForce24HourTime = true;
@@ -46,12 +46,12 @@
         "/Applications/Google Chrome.app"
         "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
-        "/Applications/Nix Apps/Discord.app"
+        "${pkgs.discord}/Applications/Discord.app"
         "/Applications/Fastmail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
-        "/Applications/Visual Studio Code.app"
-        "/Applications/Nix Apps/Ghostty.app"
+        "${pkgs.vscode}/Applications/Visual Studio Code.app"
+        "${pkgs.ghostty-bin}/Applications/Ghostty.app"
         "/System/Applications/System Settings.app"
         "/Applications/UTM.app"
         "/Applications/1Password.app"
