@@ -67,5 +67,6 @@ in {
     ./discord.nix
     ./chrome.nix
     ./lazygit.nix
+    ./btop.nix
   ];
 }

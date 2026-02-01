@@ -17,7 +17,6 @@
       "act"
       "gh"
       "wget"
-      "btop"
       "zsh-async"
       "anomalyco/homebrew-tap/opencode"
       "tree-sitter-cli"
