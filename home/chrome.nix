@@ -12,7 +12,6 @@
     "nhdogjmejiglipccpnnnanhbledajbpd" # Vue DevTools
     "fadndhdgpmmaapbmfcknlfgcflmmmieb" # FrankerFaceZ
     "jiaopdjbehhjgokpphdfgmapkobbnmjp" # Youtube-shorts block
-    "pgpheojdhgdjjahjpacijmgenmegnchn" # Weather Please
     "fkagelmloambgokoeokbpihmgpkbgbfm" # Indie Wiki Buddy
     "kdbmhfkmnlmbkgbabkdealhhbfhlmmon" # SteamDB
     "hlepfoohegkhhmjieoechaddaejaokhf" # Refined GitHub
