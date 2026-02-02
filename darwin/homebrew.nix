@@ -14,11 +14,6 @@
     };
 
     brews = [
-      "act"
-      "gh"
-      "lazygit"
-      "wget"
-      "btop"
       "zsh-async"
       "anomalyco/homebrew-tap/opencode"
       "tree-sitter-cli"
@@ -27,16 +22,12 @@
     casks = [
       "obs"
       "sikarugir"
-      "utm"
       "db-browser-for-sqlite"
       "appcleaner"
       "docker-desktop"
-      "visual-studio-code"
       "mac-mouse-fix"
-      "helium-browser"
       "iina"
       "the-unarchiver"
-      "1password"
       "parsec"
       "gimp"
       "transmission"

@@ -43,6 +43,10 @@
 
     # neovim nightly
     neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
+
+    # VSCode extensions
+    nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
+    nix-vscode-extensions.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = inputs @ {
@@ -56,6 +60,7 @@
     homebrew-sikarugir,
     homebrew-opencode,
     neovim-nightly-overlay,
+    nix-vscode-extensions,
     ...
   }: {
     # Build darwin flake using:
@@ -66,6 +71,9 @@
       pkgs = import nixpkgs {
         system = "aarch64-darwin";
         config.allowUnfree = true;
+        overlays = [
+          nix-vscode-extensions.overlays.default
+        ];
       };
 
       specialArgs = {

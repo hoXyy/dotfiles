@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   system.defaults = {
     NSGlobalDomain = {
       AppleICUForce24HourTime = true;
@@ -42,17 +42,19 @@
       autohide = false;
       mineffect = "scale";
       persistent-apps = [
-        "/Applications/Helium.app"
+        "/System/Applications/Apps.app"
+        "${pkgs.google-chrome}/Applications/Google Chrome.app"
+        "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
-        "/Applications/Nix Apps/Discord.app"
+        "${pkgs.discord}/Applications/Discord.app"
         "/System/Applications/Mail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
-        "/Applications/Zed.app"
-        "/Applications/Nix Apps/Ghostty.app"
+        "${pkgs.vscode}/Applications/Visual Studio Code.app"
+        "${pkgs.ghostty-bin}/Applications/Ghostty.app"
         "/System/Applications/System Settings.app"
-        "/Applications/UTM.app"
-        "/Applications/1Password.app"
+        "${pkgs.utm}/Applications/UTM.app"
+        "${pkgs._1password-gui}/Applications/1Password.app"
       ];
       tilesize = 42;
     };

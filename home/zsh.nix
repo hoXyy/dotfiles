@@ -53,6 +53,15 @@
         };
         file = "plugins/git/git.plugin.zsh";
       }
+      {
+        name = "zsh-fzf-history-search";
+        src = pkgs.fetchFromGitHub {
+          owner = "joshskidmore";
+          repo = "zsh-fzf-history-search";
+          rev = "35df458f7d9478fa88c74af762dcd296cdfd485d";
+          sha256 = "6UWmfFQ9JVyg653bPQCB5M4jJAJO+V85rU7zP4cs1VI=";
+        };
+      }
     ];
     history = {
       append = true;

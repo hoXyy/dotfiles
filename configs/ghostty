@@ -5,6 +5,9 @@ font-thicken = true
 adjust-cell-height = 2
 shell-integration-features = sudo,ssh-env,no-title
 
+window-padding-x = 12
+window-padding-y = 12
+
 # Theme
 palette = 0=#252530
 palette = 1=#d8647e

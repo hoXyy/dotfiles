@@ -63,5 +63,10 @@ in {
     ./ghostty.nix
     ./zed.nix
     ./nvim-vscode.nix
+    ./vscode.nix
+    ./discord.nix
+    ./chrome.nix
+    ./lazygit.nix
+    ./btop.nix
   ];
 }
