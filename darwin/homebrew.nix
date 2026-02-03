@@ -32,6 +32,7 @@
       "gimp"
       "transmission"
       "zed"
+      "1password"
     ];
   };
 }

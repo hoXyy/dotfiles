@@ -54,7 +54,7 @@
         "${pkgs.ghostty-bin}/Applications/Ghostty.app"
         "/System/Applications/System Settings.app"
         "${pkgs.utm}/Applications/UTM.app"
-        "${pkgs._1password-gui}/Applications/1Password.app"
+        "/Applications/1Password.app"
       ];
       tilesize = 42;
     };
