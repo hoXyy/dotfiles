@@ -51,6 +51,7 @@
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
         "${pkgs.vscode}/Applications/Visual Studio Code.app"
+        "${pkgs.code-cursor}/Applications/Cursor.app"
         "${pkgs.ghostty-bin}/Applications/Ghostty.app"
         "/System/Applications/System Settings.app"
         "${pkgs.utm}/Applications/UTM.app"
