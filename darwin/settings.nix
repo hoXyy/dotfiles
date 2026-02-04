@@ -46,7 +46,7 @@
         "${pkgs.google-chrome}/Applications/Google Chrome.app"
         "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
-        "${pkgs.discord}/Applications/Discord.app"
+        "/Users/hoxi/Applications/Home Manager Apps/Discord.app"
         "/System/Applications/Mail.app"
         "/System/Applications/Calendar.app"
         "/System/Applications/Music.app"
