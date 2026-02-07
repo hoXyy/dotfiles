@@ -28,10 +28,5 @@
     };
   };
 in {
-  programs.chromium = {
-    enable = true;
-    package = pkgs.google-chrome;
-  };
-
   home.file = builtins.listToAttrs (map mkExtensionsList extensions);
 }

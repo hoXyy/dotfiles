@@ -33,6 +33,7 @@
       "transmission"
       "zed"
       "1password"
+      "google-chrome"
     ];
   };
 }
