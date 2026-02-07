@@ -70,5 +70,6 @@ in {
     ./chrome.nix
     ./lazygit.nix
     ./btop.nix
+    ./zellij.nix
   ];
 }
