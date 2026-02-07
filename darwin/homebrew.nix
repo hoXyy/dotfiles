@@ -17,6 +17,7 @@
       "zsh-async"
       "anomalyco/homebrew-tap/opencode"
       "tree-sitter-cli"
+      "wasm-pack"
     ];
 
     casks = [
