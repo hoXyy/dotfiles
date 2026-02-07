@@ -26,6 +26,7 @@ in {
     nerd-fonts.iosevka-term
     nerd-fonts.jetbrains-mono
     code-cursor
+    cursor-cli
   ];
 
   home.activation = {
