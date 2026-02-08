@@ -9,25 +9,26 @@ window-padding-x = 8
 window-padding-y = 8 
 
 # Theme
-palette = 0=#252530
-palette = 1=#d8647e
-palette = 2=#7fa563
-palette = 3=#f3be7c
-palette = 4=#6e94b2
-palette = 5=#bb9dbd
-palette = 6=#aeaed1
-palette = 7=#cdcdcd
-palette = 8=#606079
-palette = 9=#e08398
-palette = 10=#99b782
-palette = 11=#f5cb96
-palette = 12=#8ba9c1
-palette = 13=#c9b1ca
-palette = 14=#bebeda
-palette = 15=#d7d7d7
+background = #242933
+foreground = #C0C8D8
+cursor-color = #C0C8D8
+selection-background = #2E3440
+selection-foreground = #C0C8D8
 
-background = #141415
-foreground = #cdcdcd
-selection-background = #252530
-selection-foreground = #cdcdcd
-split-divider-color = #878787
+palette = 0=#191D24
+palette = 1=#BF616A
+palette = 2=#A3BE8C
+palette = 3=#EBCB8B
+palette = 4=#5E81AC
+palette = 5=#88C0D0
+palette = 6=#B48EAD
+palette = 7=#C0C8D8
+
+palette = 8=#3B4252
+palette = 9=#C5727A
+palette = 10=#B1C89D
+palette = 11=#EFD49F
+palette = 12=#88C0D0
+palette = 13=#BE9DB8
+palette = 14=#9FC6C5
+palette = 15=#D8DEE9
