@@ -16,5 +16,6 @@
     wget
     act
     utm
+    ripgrep
   ];
 }
