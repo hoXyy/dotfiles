@@ -5,7 +5,7 @@
 }: {
   environment.systemPackages = with pkgs; [
     git
-    inputs.neovim-nightly-overlay.packages.${pkgs.system}.default
+    neovim
     ghostty-bin
     rustup
     gh

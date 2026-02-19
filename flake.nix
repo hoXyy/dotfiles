@@ -41,9 +41,6 @@
       flake = false;
     };
 
-    # neovim nightly
-    neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
-
     # VSCode extensions
     nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
     nix-vscode-extensions.inputs.nixpkgs.follows = "nixpkgs";
@@ -59,7 +56,6 @@
     homebrew-cask,
     homebrew-sikarugir,
     homebrew-opencode,
-    neovim-nightly-overlay,
     nix-vscode-extensions,
     ...
   }: {
