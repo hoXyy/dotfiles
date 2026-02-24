@@ -35,7 +35,7 @@
           "editor.codeActionsOnSave" = {
             "source.fixAll.eslint" = "explicit";
           };
-          "workbench.colorTheme" = "Catppuccin Frappé";
+          "workbench.colorTheme" = "Catppuccin Mocha";
           "workbench.activityBar.location" = "top";
           "chat.agent.enabled" = false;
           "workbench.secondarySideBar.defaultVisibility" = "hidden";
