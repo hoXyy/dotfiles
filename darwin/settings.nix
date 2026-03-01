@@ -42,9 +42,9 @@
       autohide = false;
       mineffect = "scale";
       persistent-apps = [
-        "/System/Applications/Apps.app"
+        # "/System/Applications/Apps.app"
         "/Applications/Google Chrome.app"
-        "/System/Applications/Phone.app"
+        # "/System/Applications/Phone.app"
         "/System/Applications/Messages.app"
         "/Users/hoxi/Applications/Home Manager Apps/Discord.app"
         "/System/Applications/Mail.app"
