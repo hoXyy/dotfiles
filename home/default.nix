@@ -65,7 +65,7 @@ in {
     ./nvim-vscode.nix
     # ./vscode.nix
     ./discord.nix
-    ./chrome.nix
+    # ./chrome.nix
     ./lazygit.nix
     ./btop.nix
     ./zellij.nix
