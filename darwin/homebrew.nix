@@ -36,7 +36,6 @@
       "1password"
       "google-chrome"
       "visual-studio-code"
-      "zen"
     ];
   };
 }
