@@ -18,6 +18,8 @@
       "anomalyco/homebrew-tap/opencode"
       "tree-sitter-cli"
       "wasm-pack"
+      "python@3.14"
+      "aria2"
     ];
 
     casks = [
@@ -36,6 +38,11 @@
       "1password"
       "google-chrome"
       "visual-studio-code"
+      "webstorm"
+      "pycharm"
+      "jetbrains-toolbox"
+      "moonlight"
+      "helium-browser"
     ];
   };
 }
