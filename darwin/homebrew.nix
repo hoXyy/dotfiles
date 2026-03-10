@@ -43,6 +43,8 @@
       "jetbrains-toolbox"
       "moonlight"
       "helium-browser"
+      "raycast"
+      "sony-ps-remote-play"
     ];
   };
 }
