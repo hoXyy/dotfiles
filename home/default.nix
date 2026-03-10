@@ -69,5 +69,6 @@ in {
     ./lazygit.nix
     ./btop.nix
     ./zellij.nix
+    ./fzf.nix
   ];
 }

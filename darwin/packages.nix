@@ -9,7 +9,6 @@
     ghostty-bin
     rustup
     gh
-    fzf
     bat
     bun
     imagemagick
