@@ -16,5 +16,6 @@
     act
     utm
     ripgrep
+    ffmpeg_7-full
   ];
 }
