@@ -20,6 +20,7 @@
       "wasm-pack"
       "python@3.14"
       "aria2"
+      "pipx"
     ];
 
     casks = [
