@@ -61,7 +61,7 @@ in {
     ./zsh.nix
     ./nvim.nix
     ./git.nix
-    ./ghostty.nix
+    # ./ghostty.nix
     ./zed.nix
     ./nvim-vscode.nix
     # ./vscode.nix
