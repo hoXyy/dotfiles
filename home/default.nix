@@ -25,6 +25,7 @@ in {
     nerd-fonts.jetbrains-mono
     code-cursor
     cursor-cli
+    wezterm
   ];
 
   home.activation = {
@@ -70,5 +71,6 @@ in {
     ./btop.nix
     ./zellij.nix
     ./fzf.nix
+    ./wezterm.nix
   ];
 }

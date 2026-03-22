@@ -53,7 +53,7 @@
         "/Applications/Visual Studio Code.app"
         "/Applications/WebStorm.app"
         "/Applications/PyCharm.app"
-        "${pkgs.ghostty-bin}/Applications/Ghostty.app"
+        "${pkgs.wezterm}/Applications/WezTerm.app"
         "/System/Applications/System Settings.app"
         "${pkgs.utm}/Applications/UTM.app"
         "/Applications/1Password.app"
